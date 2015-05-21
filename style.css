@@ -1,0 +1,172 @@
+.headerContainer {
+  text-decoration: none;
+  background-image: url(http://www.thelagunabeachhouse.com/wp-content/uploads/2014/04/banner-cruisethecoast.jpg);
+  position:relative;
+  text-align: center;
+  top: 0px;
+  bottom: 0px;
+  background-size: cover;
+  height: 200px;
+  padding: 20px;
+}
+
+h1 {
+  padding: 20px;
+  color: white;
+  font-size: 60px;
+}
+
+h1 span {
+  font-size: 10px;
+}
+
+.buttonGroup li {
+  display: inline;
+}
+
+.navBarLeft {
+  float: left;
+  text-decoration: none;
+  font-size: 10px;
+
+}
+
+.navBarRight {
+  float: right;
+  text-decoration: none;
+  font-size: 5%;
+
+}
+
+/* Middle of the Page Content*/
+
+
+.mainContainer  {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 62.5em;
+}
+
+
+}
+
+.2thirdsOfPage {
+  width:65%;
+  float:left;
+  clear:right;`
+  display: inline-block;
+
+}
+
+.inner {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.headline {
+  text-align: center;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 40px;
+  color: navy;
+}
+.authorBar img {
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+}
+
+blockquote {
+  margin-left: .75em;
+  border-left: 1px solid dimgrey;
+  padding: 15px;
+  font-family: serif;
+  /* font-style: italic; */
+  background: transparent;
+  color: blue;
+}
+#bqParagraphy {
+  line-height: 2;
+}
+
+/* 1/3rd of the Middle of the Page */
+
+.1thirdOfPage {
+/*   width: 32%;
+float:right;
+clear:right;
+display: inline-block; */
+
+    position:absolute;
+    top:0; bottom:0; right:0;
+    width:50px;
+    background:#000;
+}
+
+
+
+
+/* Bottom of the Page Content, but not the lowest section*/
+
+.PopPostsContainer {
+  margin: 0 auto;
+}
+
+.popPostsPicContainer ul {
+  display:relative;
+  bottom: 0;
+  height: 150px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.popPostsPicContainer ul li {
+  display: inline-block;
+  width: 350px;
+  height: 150px;
+  margin: 0px;
+  padding: 0px;
+}
+.popPostsPicContainer ul li div{
+  position:relative;
+  width: 360px;
+  height: 150px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.popPostsPicContainer p {
+  position:absolute;
+  font: white;
+  positon: absolute;
+  bottom: 0;
+}
+
+.firstBannerPic {
+  background-image: url("https://c3.staticflickr.com/3/2176/1716845163_b3b526dfc0_b.jpg");
+  background-size: cover;
+}
+
+.secondBannerPic {
+  background-image: url("http://cdn.viralscape.com/wp-content/uploads/2014/04/beers.jpg");
+  background-size: cover;
+}
+
+.thirdBannerPic {
+  background-image: url("http://urbanmoustache.com/wp-content/uploads/2015/01/zach_galifianakis_wallpaper.jpg");
+  background-size: cover;
+}
+
+.fourthBannerPic {
+  background-image: url("http://4.bp.blogspot.com/-3K6I481p-5c/URcCc9uZ3RI/AAAAAAAAJB0/lz5X45rwkxo/s1600/HughsBarOneOcean.jpg");
+  background-size: cover;
+}
+
+/* lowest bottom container */
